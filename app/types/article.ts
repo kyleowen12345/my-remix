@@ -1,3 +1,5 @@
+import { Category } from "./category";
+
 export type ArticleCover = {
   id: number;
   documentId: string;
@@ -31,4 +33,5 @@ export type Article = {
   publishedAt: string;
   cover: ArticleCover;
   author: ArticleAuthor;
+  category: Category;
 };
